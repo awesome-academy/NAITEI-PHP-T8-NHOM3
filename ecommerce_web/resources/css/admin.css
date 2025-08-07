@@ -1,0 +1,34 @@
+/* admin.css */
+.admin-dashboard {
+    background-color: #f8fafc;
+}
+
+.admin-dashboard.dark {
+    background-color: #0f172a;
+}
+
+.admin-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.dark .admin-card {
+    background-color: #1e293b;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.5);
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.dark .admin-table th, .dark .admin-table td {
+    border-bottom-color: #334155;
+}

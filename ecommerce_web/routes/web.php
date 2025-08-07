@@ -13,5 +13,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
     })->name('dashboard');
 });
 
+Route::get('/admin/dashboard', function () {
+    return Inertia::render('admin/adminDashboard');
+})->name('admin');
+
+
+
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
