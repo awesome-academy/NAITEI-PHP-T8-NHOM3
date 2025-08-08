@@ -13,7 +13,7 @@ return new class extends Migration
 
         });
     }
-$table->enum('status', ['active', 'inactive'])->default('active')->after('role');
+
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
