@@ -22,7 +22,7 @@ class CategorySeeder extends Seeder
                 'description' => 'Những tác phẩm văn học kinh điển và hiện đại từ các nước trên thế giới'
             ],
             [
-                'name' => 'Kinh tế ',
+                'name' => 'Kinh tế',
                 'description' => 'Sách về kinh tế, quản trị kinh doanh, khởi nghiệp và đầu tư'
             ],
             [

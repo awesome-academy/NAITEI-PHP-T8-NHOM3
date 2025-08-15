@@ -131,13 +131,13 @@ class ProductSeeder extends Seeder
                 'image_url' => 'https://firstnews.vn/upload/products/original/-1731399166.jpg'
             ],
 
-            // Kinh tế - Quản lý
+            // Kinh tế 
             [
                 'name' => 'Nghĩ giàu làm giàu',
                 'author' => 'Napoleon Hill',
                 'description' => 'Cuốn sách kinh điển về tư duy và phương pháp tạo dựng sự giàu có.',
                 'price' => 89000,
-                'category_id' => $categories['Kinh tế - Quản lý'],
+                'category_id' => $categories['Kinh tế'],
                 'stock' => 70,
                 'image_url' => 'https://cdn1.fahasa.com/media/catalog/product/n/g/nghigiaulamgiau_110k-01_bia_1.jpg'
             ],
@@ -146,7 +146,7 @@ class ProductSeeder extends Seeder
                 'author' => 'Robert Kiyosaki',
                 'description' => 'Hướng dẫn cách giáo dục tài chính cho con trẻ từ sớm.',
                 'price' => 95000,
-                'category_id' => $categories['Kinh tế - Quản lý'],
+                'category_id' => $categories['Kinh tế'],
                 'stock' => 55,
                 'image_url' => 'https://cdn1.fahasa.com/media/catalog/product/c/o/combo-12112019-7_1.jpg'
             ],
@@ -155,7 +155,7 @@ class ProductSeeder extends Seeder
                 'author' => 'Eric Ries',
                 'description' => 'Phương pháp khởi nghiệp tinh gọn cho các doanh nghiệp mới.',
                 'price' => 135000,
-                'category_id' => $categories['Kinh tế - Quản lý'],
+                'category_id' => $categories['Kinh tế'],
                 'stock' => 30,
                 'image_url' => 'https://salt.tikicdn.com/cache/w1200/ts/product/99/df/29/8ef1fb67e07d24037c10a128c9fe647c.jpg'
             ],
