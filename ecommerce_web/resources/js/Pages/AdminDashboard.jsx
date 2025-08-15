@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import AdminLayout from '@/layouts/AdminLayout';
+import AdminLayout from '@/Layouts/AdminLayout';
 import { Head, useForm } from '@inertiajs/react';
 
 const breadcrumbs = [
