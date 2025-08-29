@@ -43,6 +43,14 @@ return [
                 CategoryController::class,
             ],
 
+            'match' => [
+                'prefixes' => ['api/users*'], // Thêm routes cho users
+                'domains' => ['*'],
+            ],
+            'include' => [
+                UserController::class, // Thêm UserController
+            ],
+
             // Exclude these routes even if they matched the rules above.
             'exclude' => [
                 // 'GET /health', 'admin.*'
